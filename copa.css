@@ -1,5 +1,5 @@
 /* General Styling */
-body {
+body.WorldCup {
     font-family: Arial, sans-serif;
     background-image: url('images/cup.jpg'); 
     background-size: cover;
@@ -13,6 +13,7 @@ body {
 p{
     font-size: larger;
     font-weight: bold;
+
 }
 /* Content Styling */
 .content {
@@ -223,4 +224,145 @@ footer {
     background-color: #000000;
     color: #FFD700;
     text-align: center;
+}
+/* Specific background for Copa America */
+body.copaamerica {
+    background-image: url('images/ame.jpg'); 
+    font-family: Arial, sans-serif; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+body.Euro{
+    background-image: url('images/euros.jpg'); 
+    font-family: Arial, sans-serif; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+/* Specific background and text styling for Copa America */
+body.copaamerica {
+    background-image: url('images/ame.jpg'); 
+    font-family: Arial, sans-serif; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: white; 
+    text-align: center;
+}
+
+
+
+/* Specific background and text styling for Euro Cup */
+body.Euro {
+    background-image: url('images/euros.jpg'); 
+    font-family: Arial, sans-serif; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: rgb(254, 255, 255); 
+    text-align: center;
+}
+
+
+/* Copa America specific card styling for better readability */
+body.copaamerica .card-container {
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 2px solid #FFD700; 
+    border-radius: 10px; 
+    padding: 30px; 
+    margin-bottom: 50px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
+}
+
+body.copaamerica .team h3, 
+body.copaamerica .team p {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px; 
+}
+
+/* Euro Cup specific card styling for better readability */
+body.Euro .card-container {
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 2px solid #FFD700; 
+    border-radius: 10px; 
+    padding: 30px; 
+    margin-bottom: 50px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
+}
+
+body.Euro .team h3, 
+body.Euro .team p {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px; 
+}
+
+/* Top Scorers Section for Copa America */
+body.copaamerica ol li {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 30px; 
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Top Scorers Section for Euro Cup */
+body.Euro ol li {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 30px; 
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Iconic Moments for Copa America */
+body.copaamerica .iconic-moments li {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 30px; 
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Iconic Moments for Euro Cup */
+body.Euro .iconic-moments li {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 30px; 
+    border-radius: 10px;
+    border: 2px solid #FFD700;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+li {
+    margin-bottom: 10px;
+    font-weight: bolder;
+   
+    
+}
+/* Facts Section Styling for Copa America */
+body.copaamerica .facts-section {
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 2px solid #FFD700; 
+    border-radius: 10px; 
+    padding: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+body.copaamerica .facts-section ul li {
+    font-size: 1.6rem;
+    color: #fffffe; 
+    text-shadow: 1px 1px 4px #000;
+    margin-bottom: 10px;
 }
