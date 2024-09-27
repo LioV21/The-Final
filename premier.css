@@ -106,3 +106,11 @@ body.champions-league {
     background-attachment: fixed;  
     background-position: center;   
 }
+/* Background for Gold Cup Page */
+body.gold-cup-page {
+    background-image: url('images/oro2.jpg'); 
+    background-size: cover;        
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-position: center;  
+}
