@@ -98,3 +98,11 @@ nav {
 .nav-links a:hover {
     color: #ff00bf; 
 }
+/* Background for Champions League */
+body.champions-league {
+    background-image: url('images/champssss.jpg'); 
+    background-size: cover;        
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-position: center;   
+}
